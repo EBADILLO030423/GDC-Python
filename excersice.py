@@ -4,6 +4,7 @@ import unittest, time, re
 import time
 import os
 from datetime import datetime
+from selenium.webdriver.common.by import By
 
 class UntitledTestCase(unittest.TestCase):
     def setUp(self):
@@ -37,8 +38,7 @@ class UntitledTestCase(unittest.TestCase):
             driver.implicitly_wait(3)
             print("\n"+str(now)+": Navigating through some sections...")
             for section in sections_array:
-
-                link=driver.find_element_by_link_text(section)
+                link=driver.find_element(By.LINK_TEXT,section)
                 link.click()
                 print("\n"+str(now)+": Clicked on : "+section)
                 print("\n"+str(now)+": Taking snapshot and saving to: ", os.getcwd()+" ...")
