@@ -1,0 +1,17 @@
+1669248675224	geckodriver	INFO	Listening on 127.0.0.1:56430
+1669248675508	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56431" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/2d/0kzwddjs26389j9q40xpy17h0000gn/T/rust_mozprofileuJfaeY"
+2022-11-23 18:11:17.182 plugin-container[27474:529623] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-23 18:11:17.182 plugin-container[27474:529623] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1669248677232	Marionette	INFO	Marionette enabled
+1669248677282	Marionette	INFO	Listening on port 56449
+WebDriver BiDi listening on ws://localhost:56431
+Read port: 56449
+1669248677524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2022-11-23 18:11:18.059 plugin-container[27474:529623] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-23 18:11:18.059 plugin-container[27474:529623] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-11-23 18:11:18.060 plugin-container[27474:529630] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-11-23 18:11:18.060 plugin-container[27474:529630] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/2d/0kzwddjs26389j9q40xpy17h0000gn/T/rust_mozprofileuJfaeY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56431/devtools/browser/a6476721-ec40-4b1d-983d-8aacb067b0a6
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Cy76TGYNwlBdeFKzRh_Qc2a075RKB_J9dWAUlCdaUYI.js line 2 > eval line 7416 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1669249187655	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
